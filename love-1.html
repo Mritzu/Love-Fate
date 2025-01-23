@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>partner 1</title>
+    <style>
+        body {
+            background-image: url("assets/pink-heart-background.jpg"); /* Replace with your love-themed background image URL */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .picture-frame {
+            width: 60%;
+            height: 60%;
+            background-color: white;
+            border: 5px solid red;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .picture-frame video{
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="picture-frame">
+            <video autoplay controls>
+                <source src="assets/galla.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+         <!-- Replace with your dummy image URL -->
+    </div>
+</body>
+</html>
